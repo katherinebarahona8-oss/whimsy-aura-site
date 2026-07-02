@@ -1,95 +1,154 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Whimsy Horchata</title>
-  <meta name="description" content="Whimsy Horchata — creamy, cinnamon-kissed horchata made with rice, real ingredients, and a little magic." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Whimsy Horchata | Made to be Loved</title>
+  <meta name="description" content="Whimsy Horchata — creamy rice milk horchata rooted in tradition, made modern with shimmer, embroidery, and real ingredients." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="nav">
-    <a href="#story">Our Story</a>
-    <a href="#horchata">Our Horchata</a>
-    <a class="logo" href="#top">whimsy <span>Horchata</span></a>
-    <a href="#find">Find Us</a>
-    <a href="#shop">Shop</a>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#story">Our Story</a>
+      <a href="#products">Our Horchata</a>
+      <a class="logo" href="#top" aria-label="Whimsy Horchata home">
+        <span>whimsy</span>
+        <small>HORCHATA</small>
+      </a>
+      <a href="#find-us">Find Us</a>
+      <a href="#shop">Shop</a>
+    </nav>
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="hero-bg"></div>
+    <section class="hero section-shell">
       <div class="hero-copy">
-        <p class="tiny">✧ hecha con amor ✧</p>
-        <h1>horchata<br><em>made to be loved.</em></h1>
-        <p>Rice, cinnamon, and a little magic. That’s all.</p>
-        <a class="button" href="#shop">Explore our horchata →</a>
+        <p class="script-kicker">✧ hecha con amor ✧</p>
+        <h1>horchata<br><em>made to be</em><br>loved.</h1>
+        <p class="hero-body">Creamy rice milk, cinnamon, and a little magic. Rooted in tradition, reimagined with shimmer, embroidery, and modern joy.</p>
+        <div class="mini-pills">
+          <span>Rice milk blend</span>
+          <span>Dairy free</span>
+          <span>No refined sugar</span>
+        </div>
+        <a class="button" href="#products">Explore our horchata →</a>
+      </div>
+      <div class="hero-art">
+        <img src="assets/hero-two-cans.jpg" alt="Two tall Whimsy Horchata cans with disco tile shimmer and Mexican-inspired floral embroidery" />
       </div>
     </section>
 
-    <section id="story" class="story-band blended">
-      <article class="photo-card liquid"><img src="assets/liquid.jpg" alt="Glass of creamy horchata with cinnamon" /></article>
-      <article class="story-copy">
-        <p class="kicker">Rooted in tradition</p>
-        <h2>Made for today.</h2>
-        <p>We blend rice, cinnamon, and a touch of nostalgia for a smooth, lightly sweet horchata that feels like home.</p>
-        <span class="script">hecha con amor ♡</span>
-      </article>
-      <article class="photo-card"><img src="assets/girl-sip.jpg" alt="Woman holding a can of Whimsy Horchata" /></article>
+    <section id="story" class="story-band">
+      <div class="story-photo">
+        <img src="assets/horchata-glass.jpg" alt="A creamy glass of horchata with cinnamon and rice" />
+      </div>
+      <div class="story-copy card">
+        <span class="eyebrow">Rooted in tradición</span>
+        <h2>Made for now.</h2>
+        <p>Whimsy is an ode to the flavors that keep us connected: rice, cinnamon, nostalgia, and joy. It honors the women, kitchens, and stories behind the drink while making horchata feel fresh, playful, and shelf-stopping.</p>
+        <a href="#ingredients" class="text-link">See the ingredients →</a>
+      </div>
+      <div class="story-photo hide-mobile">
+        <img src="assets/lifestyle-girl.jpg" alt="Woman with long black wavy hair holding a Whimsy Horchata can" />
+      </div>
     </section>
 
-    <section id="shop" class="shop-section">
-      <p class="section-label">✧ Choose your whimsy ✧</p>
-      <div class="product-row">
-        <article class="product product-original">
-          <img src="assets/product-original.jpg" alt="Original Whimsy Horchata can" />
+    <section id="ingredients" class="ingredients section-shell">
+      <div class="section-intro">
+        <p class="script-kicker">simple ingredients · real memories</p>
+        <h2>Traditional, but not old-fashioned.</h2>
+      </div>
+      <div class="ingredient-grid">
+        <article>
+          <img src="assets/ingredient-rice.jpg" alt="Rice in a bowl" />
+          <h3>Rice</h3>
+          <p>The heart of horchata — soft, creamy, and comforting.</p>
+        </article>
+        <article>
+          <img src="assets/ingredient-cinnamon.jpg" alt="Cinnamon sticks" />
+          <h3>Cinnamon</h3>
+          <p>Warmth, depth, and the scent of home.</p>
+        </article>
+        <article>
+          <img src="assets/ingredient-milk.jpg" alt="Rice milk being poured into a glass" />
+          <h3>Rice Milk</h3>
+          <p>Smooth, dairy-free, and gently sweet.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="products" class="products">
+      <div class="section-intro centered">
+        <p class="script-kicker">choose your whimsy</p>
+        <h2>Two ways to sip.</h2>
+      </div>
+      <div class="product-grid">
+        <article class="product-card original">
+          <div class="product-image"><img src="assets/can-original.jpg" alt="Whimsy Horchata Original can" /></div>
           <div class="product-copy">
-            <span>Horchata</span>
+            <span class="eyebrow">Horchata</span>
             <h3>Original</h3>
-            <p>Creamy, delicately sweet, and perfectly spiced.</p>
-            <ul><li>Rice milk blend</li><li>Dairy free</li><li>No refined sugar</li></ul>
-            <a href="#find">Learn more +</a>
+            <p>Creamy, delicately sweet, and perfectly spiced. The classic that feels like home.</p>
+            <ul>
+              <li>Rice milk blend</li>
+              <li>Dairy free</li>
+              <li>No refined sugar</li>
+            </ul>
+            <a class="button ghost" href="#shop">Learn more</a>
           </div>
         </article>
-        <article class="product product-latte">
-          <img src="assets/product-latte.jpg" alt="Latte Whimsy Horchata can" />
+        <article class="product-card latte">
+          <div class="product-image"><img src="assets/can-latte.jpg" alt="Whimsy Horchata Latte can" /></div>
           <div class="product-copy">
-            <span>Horchata</span>
+            <span class="eyebrow">Horchata</span>
             <h3>Latte</h3>
-            <p>Smooth, cozy, and kissed with cinnamon.</p>
-            <ul><li>Rice milk blend</li><li>Dairy free</li><li>No refined sugar</li></ul>
-            <a href="#find">Learn more +</a>
+            <p>Smooth, cozy, and kissed with cinnamon. A creamy modern twist for slow mornings.</p>
+            <ul>
+              <li>Rice milk blend</li>
+              <li>Dairy free</li>
+              <li>No refined sugar</li>
+            </ul>
+            <a class="button ghost" href="#shop">Learn more</a>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="gallery blended" aria-label="Lifestyle photography">
-      <img src="assets/gallery-girl-hold.jpg" alt="Woman holding a Whimsy Horchata can" />
-      <img src="assets/gallery-liquid.jpg" alt="Horchata over ice" />
-      <img src="assets/gallery-girl-straw.jpg" alt="Woman drinking horchata with a straw" />
-      <img src="assets/gallery-can-still.jpg" alt="Whimsy Horchata can with embroidered textile" />
+    <section class="mood-strip" aria-label="Whimsy lifestyle images">
+      <img src="assets/girl-can-01.jpg" alt="Lifestyle photo with Whimsy Horchata can" />
+      <img src="assets/embroidery-disco-texture.jpg" alt="Embroidered floral and disco-inspired texture" />
+      <img src="assets/girl-can-02.jpg" alt="Woman holding a Whimsy Horchata can" />
+      <img src="assets/sparkle-texture.jpg" alt="Iridescent sparkle texture" />
     </section>
 
-    <section class="manifesto">
-      <div class="embroidery"></div>
-      <p>for the dreamers, the doers,<br>the homebodies and the corazones. ♡</p>
-      <div class="embroidery right"></div>
+    <section id="find-us" class="newsletter section-shell">
+      <div>
+        <p class="script-kicker">for the dreamers, the doers, the homebodies, and the corazones</p>
+        <h2>A little tradition. A lot of magic.</h2>
+      </div>
+      <form>
+        <input type="email" placeholder="Enter your email" aria-label="Email address" />
+        <button type="submit">Join familia</button>
+      </form>
     </section>
   </main>
 
-  <footer id="find">
-    <div class="footer-logo">whimsy <span>Horchata</span></div>
+  <footer id="shop">
+    <div class="footer-logo">
+      <span>whimsy</span>
+      <small>HORCHATA</small>
+    </div>
+    <p>Rice milk blend ✦ Dairy free ✦ No refined sugar</p>
     <nav>
       <a href="#story">Our Story</a>
-      <a href="#horchata">Our Horchata</a>
-      <a href="#find">Find Us</a>
+      <a href="#products">Our Horchata</a>
+      <a href="#find-us">Find Us</a>
       <a href="#shop">Shop</a>
     </nav>
-    <div class="social">Instagram · TikTok</div>
   </footer>
 </body>
 </html>
