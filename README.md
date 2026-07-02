@@ -1,13 +1,12 @@
-# Whimsy Horchata Functional Site
+# Whimsy Horchata Site — Fixed Hero
 
-Upload the **contents** of this folder to GitHub, not the zip itself.
+This version fixes the hero image zoom/cropping issue by displaying the product photo as a normal responsive image instead of a cropped CSS background/cover image.
 
-Files:
+Upload these unzipped files to GitHub:
 - index.html
 - styles.css
 - netlify.toml
-- assets/
+- README.md
+- assets folder
 
-Netlify settings:
-- Build command: leave blank
-- Publish directory: .
+Then in Netlify: Deploys → Trigger deploy → Deploy site.
