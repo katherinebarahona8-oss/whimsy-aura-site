@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 210" role="img" aria-label="whimsy horchata logo">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#E64687"/><stop offset="1" stop-color="#B54ACB"/></linearGradient></defs>
+  <rect width="520" height="210" fill="none"/>
+  <text x="30" y="115" font-family="Pacifico, Brush Script MT, cursive" font-size="104" fill="url(#g)">whimsy</text>
+  <path d="M306 43c10-18 38-8 31 16-5 17-31 30-31 30s-25-13-31-30c-8-24 21-34 31-16z" fill="#E64687" transform="scale(.42) translate(406,30)"/>
+  <text x="170" y="165" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="24" letter-spacing="8" fill="#C42D71">HORCHATA</text>
+  <g fill="#F29A2E"><path d="M418 46l7 17 17 7-17 7-7 17-7-17-17-7 17-7z"/><path d="M84 155l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/></g>
+</svg>

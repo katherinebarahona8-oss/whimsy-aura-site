@@ -1,29 +1,179 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Whimsy Horchata</title>
-  <meta name="description" content="Whimsy Horchata — your emotional support drink is here." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Whimsy Horchata | Emotional Support Drink</title>
+  <meta name="description" content="Whimsy Horchata is creamy rice milk, cinnamon, and a little magic. Rooted in tradition, reimagined with shimmer, embroidery, and modern joy." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Fraunces:opsz,wght,SOFT,WONK@9..144,500..900,50,1&family=Pacifico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="marquee" aria-label="your emotional support drink is here">
-    <div class="marquee-track">
-      <span><b class="star">✦</b> your emotional support drink is here <b class="star">✦</b></span>
-      <span><b class="star">✦</b> your emotional support drink is here <b class="star">✦</b></span>
-      <span><b class="star">✦</b> your emotional support drink is here <b class="star">✦</b></span>
-      <span><b class="star">✦</b> your emotional support drink is here <b class="star">✦</b></span>
-      <span><b class="star">✦</b> your emotional support drink is here <b class="star">✦</b></span>
-      <span><b class="star">✦</b> your emotional support drink is here <b class="star">✦</b></span>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="announcement" aria-label="Announcement">
+    <div class="announcement__track">
+      <span class="spin-star">✦</span> your emotional support drink is here <span class="spin-star">✦</span>
+      <span class="spin-star">✦</span> your emotional support drink is here <span class="spin-star">✦</span>
+      <span class="spin-star">✦</span> your emotional support drink is here <span class="spin-star">✦</span>
+      <span class="spin-star">✦</span> your emotional support drink is here <span class="spin-star">✦</span>
     </div>
   </div>
 
-  <main class="site-shell">
-    <img class="approved-hero" src="assets/hero-approved.png" alt="Whimsy Horchata Original and Latte cans with disco ball, embroidery, flowers, rice, and cinnamon on a pink background." />
+  <header class="site-header">
+    <a href="#" class="logo-wrap"><img src="assets/01-whimsy-logo.svg" alt="Whimsy Horchata" /></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#story">our story</a>
+      <a href="#horchata">our horchata</a>
+      <a href="#ingredients">ingredients</a>
+      <a href="#waitlist">waitlist</a>
+    </nav>
+    <a class="bag" href="#waitlist" aria-label="Join waitlist">♡</a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero__sparkle-layer" aria-hidden="true"></div>
+      <div class="hero__copy">
+        <p class="eyebrow">hecha con amor · made to be loved</p>
+        <h1>horchata with a little emotional support.</h1>
+        <p class="lead">Creamy rice milk, cinnamon, and a touch of magic. Rooted in tradition, reimagined with shimmer, embroidery, and modern joy.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#waitlist">join the waitlist</a>
+          <a class="btn btn--ghost" href="#horchata">meet the flavors</a>
+        </div>
+      </div>
+
+      <div class="hero__stage" aria-label="Whimsy Original and Latte horchata cans">
+        <img class="disco" src="assets/04-disco-ball.svg" alt="" />
+        <div class="can can--original">
+          <div class="can__top"></div>
+          <div class="can__tile"></div>
+          <div class="can__label">
+            <div class="can__brand">whimsy</div>
+            <div class="can__sub">HORCHATA</div>
+            <div class="can__flower">✿</div>
+            <div class="can__flavor">ORIGINAL</div>
+            <p>RICE MILK BLEND</p><p>DAIRY FREE</p><p>NO REFINED SUGAR</p>
+            <small>8 FL OZ · 237 ML</small>
+          </div>
+          <div class="can__bottom"></div>
+        </div>
+        <div class="can can--latte">
+          <div class="can__top"></div>
+          <div class="can__tile"></div>
+          <div class="can__label">
+            <div class="can__brand">whimsy</div>
+            <div class="can__sub">HORCHATA</div>
+            <div class="can__flower">✿</div>
+            <div class="can__flavor">LATTE</div>
+            <p>RICE MILK BLEND</p><p>DAIRY FREE</p><p>NO REFINED SUGAR</p>
+            <small>8 FL OZ · 237 ML</small>
+          </div>
+          <div class="can__bottom"></div>
+        </div>
+        <div class="props props--left">⌁ cinnamon · rice · cinnamon ⌁</div>
+        <div class="flower-burst" aria-hidden="true">✿ ✺ ✿</div>
+      </div>
+    </section>
+
+    <section class="stripe" aria-label="Brand statement">
+      <div class="stripe__orange"></div>
+      <div class="stripe__inner">
+        <span>✦</span>
+        <h2>you deserve to have some whimsy in your life</h2>
+        <span>✦</span>
+      </div>
+      <div class="stripe__orange"></div>
+    </section>
+
+    <section class="story-grid" id="story">
+      <article class="story-card story-card--text">
+        <p class="eyebrow">our story</p>
+        <h2>a little magic in every sip.</h2>
+        <p>Whimsy is horchata for the girls who want tradition, softness, sparkle, and a beverage that feels like a tiny pep talk.</p>
+        <a class="text-link" href="#waitlist">get first sip →</a>
+      </article>
+      <article class="photo-card photo-card--drink">
+        <div class="glass"><div class="ice"></div><div class="straw"></div></div>
+        <p>iced horchata · cinnamon dust · soft cream</p>
+      </article>
+      <article class="photo-card photo-card--pattern">
+        <img src="assets/03-embroidery-pattern.svg" alt="Pink embroidery and disco inspired pattern" />
+      </article>
+      <article class="story-card story-card--ingredients" id="ingredients">
+        <p class="eyebrow">made with</p>
+        <h2>simple, honest ingredients.</h2>
+        <div class="icons">
+          <div><span>☾</span><p>rice milk blend</p></div>
+          <div><span>♡</span><p>dairy free</p></div>
+          <div><span>✦</span><p>no refined sugar</p></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="products-section" id="horchata">
+      <div class="section-heading">
+        <p class="eyebrow">our horchata</p>
+        <h2>two flavors. one main character moment.</h2>
+      </div>
+      <div class="product-row">
+        <article class="product-card">
+          <div class="mini-can original"></div>
+          <h3>Original</h3>
+          <p>Creamy, cinnamon-kissed, and nostalgic without feeling heavy.</p>
+          <a href="#waitlist">join waitlist →</a>
+        </article>
+        <article class="product-card">
+          <div class="mini-can latte"></div>
+          <h3>Latte</h3>
+          <p>Horchata’s cozy coffee-adjacent sister: smooth, soft, and made for errands.</p>
+          <a href="#waitlist">join waitlist →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <p>“rice, cinnamon, and a little magic. that’s all.”</p>
+    </section>
+
+    <section class="ugc">
+      <div class="section-heading">
+        <p class="eyebrow">whimsy in real life</p>
+        <h2>for morning walks, laptop days, and late-night feelings.</h2>
+      </div>
+      <div class="ugc-grid">
+        <div class="ugc-card">girl with can</div>
+        <div class="ugc-card">pink straw sip</div>
+        <div class="ugc-card">embroidered tote</div>
+        <div class="ugc-card">disco kitchen</div>
+      </div>
+    </section>
+
+    <section class="waitlist" id="waitlist">
+      <div>
+        <p class="eyebrow">coming soon</p>
+        <h2>we promise we won’t ghost you.</h2>
+        <p>Join the waitlist for launch updates, first drops, and the first chance to bring Whimsy home.</p>
+      </div>
+      <form name="whimsy-waitlist" method="POST" data-netlify="true" class="waitlist-form">
+        <input type="hidden" name="form-name" value="whimsy-waitlist" />
+        <label for="email">Email address</label>
+        <div class="input-row">
+          <input id="email" name="email" type="email" placeholder="your@email.com" required />
+          <button type="submit">sign me up</button>
+        </div>
+      </form>
+    </section>
   </main>
+
+  <footer class="footer">
+    <img src="assets/01-whimsy-logo.svg" alt="Whimsy Horchata" />
+    <p>emotional support drinks co. · made with rice milk, cinnamon, and sparkle</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

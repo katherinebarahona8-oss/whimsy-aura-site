@@ -1,12 +1,17 @@
-# Whimsy Horchata Site — File 02
+# Whimsy Horchata Website
 
-This version fixes the broken placeholder issue by including the approved hero image directly in `assets/hero-approved.png`.
+Netlify-ready static landing page.
 
-Upload the unzipped contents to GitHub:
-- `index.html`
-- `styles.css`
-- `netlify.toml`
-- `README.md`
-- `assets/hero-approved.png`
+## Files
+- `index.html` — homepage markup and Netlify waitlist form
+- `styles.css` — full responsive design system
+- `script.js` — small waitlist button interaction
+- `assets/` — original SVG brand assets, logo, pattern, sparkles, disco ball
 
-Then trigger a fresh deploy in Netlify.
+## Publish on Netlify
+1. Unzip this folder.
+2. Drag the full folder into Netlify Drop, or push it to GitHub and connect the repo.
+3. The waitlist form uses Netlify Forms via `data-netlify="true"`.
+
+## Brand notes
+Inspired by the approved Whimsy direction: pink hero, two horchata cans, embroidery, disco shimmer, rotating star announcement bar, and waitlist instead of shop.
